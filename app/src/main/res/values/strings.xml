@@ -1,17 +1,17 @@
 <resources>
-<string name="app_name">GeoQuiz2</string>
-<string name="verdadeiro">Verdadeiro</string>
-<string name="falso">Falso</string>
-<string name="correto_toast">Correto!</string>
-<string name="incorreto_toast">Incorreto!</string>
-<string name="volta">Volta</string>
-<string name="avancar">Avanca</string>
+    <string name="app_name">GeoQuiz2</string>
+    <string name="verdadeiro">Verdadeiro</string>
+    <string name="falso">Falso</string>
+    <string name="correto_toast">Correto!</string>
+    <string name="incorreto_toast">Incorreto!</string>
+    <string name="volta">Volta</string>
+    <string name="avancar">Avanca</string>
 
 
-<!-- Perguntas para o GeoQuiz -->
-<string name="pergunta1">A capital do Brasil se chama brasilia?</string>
-<string name="pergunta2">Garanhuns esta localizado no planalto da Borborema?</string>
-<string name="pergunta3">O Rio Grande do Sul fica na região centro-oeste?</string>
-<string name="pergunta4">Existe paises desenvolvidos na America do Sul?</string>
-<string name="pergunta5">O Chile não faz fronteira com o Brasil?</string>
+    <!-- Perguntas para o GeoQuiz -->
+    <string name="pergunta1">A capital do Brasil se chama brasilia?</string>
+    <string name="pergunta2">Garanhuns esta localizado no planalto da Borborema?</string>
+    <string name="pergunta3">O Rio Grande do Sul fica na região centro-oeste?</string>
+    <string name="pergunta4">Existe paises desenvolvidos na America do Sul?</string>
+    <string name="pergunta5">O Chile não faz fronteira com o Brasil?</string>
 </resources>

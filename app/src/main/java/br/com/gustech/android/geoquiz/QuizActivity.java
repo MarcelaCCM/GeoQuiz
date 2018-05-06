@@ -1,5 +1,7 @@
 package br.com.gustech.android.geoquiz;
 
+import android.app.Dialog;
+import android.content.DialogInterface;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -100,9 +102,16 @@ public class QuizActivity extends AppCompatActivity {
 
             private void mostrarPontuacao() {
                 if(mQuantidadeRespondida == 5) {
-                    AlertDialog.Builder alertDialog = new AlertDialog.Builder(this);
+                    AlertDialog alertDialog = new AlertDialog.Builder(this).create();
                     alertDialog.setTitle("Pontuação");
                     alertDialog.setMessage("Voce acertou "+mPontuacao);
+                    alertDialog.setButton(Dialog.BUTTON_NEUTRAL,"Fechar", new DialogInterface.OnClickListener(){
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i){
+                            finish();
+                        }
+                    });
+                    alertDialog.show();
                 }
             }
 
