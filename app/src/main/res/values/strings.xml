@@ -6,6 +6,7 @@
     <string name="incorreto_toast">Incorreto!</string>
     <string name="volta">Volta</string>
     <string name="avancar">Avanca</string>
+    <string name="trapacear">Trapacear!</string>
 
 
     <!-- Perguntas para o GeoQuiz -->
@@ -14,4 +15,11 @@
     <string name="pergunta3">O Rio Grande do Sul fica na região centro-oeste?</string>
     <string name="pergunta4">Existe paises desenvolvidos na America do Sul?</string>
     <string name="pergunta5">O Chile não faz fronteira com o Brasil?</string>
+
+    <!-- Alerta quando usuario trapasseia -->
+    <string name="warning_text">Tem certeza que quer fazer isso?</string>
+    <string name="show_answer_button">Mostrar resposta</string>
+    <string name="cheat_button">Trapacear!</string>
+    <string name="judgment_toast">Trapacear é errado.</string>
+
 </resources>
